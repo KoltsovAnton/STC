@@ -483,7 +483,7 @@ contract Crowdsale is ReentrancyGuard, Ownable, usingOraclize {
             return 100;
         }
 
-        if (_rate > 95) {
+        if (_rnd > 95) {
             return 200;
         }
     }
